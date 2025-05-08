@@ -19,7 +19,7 @@ st.set_page_config(page_title="DinoGPT", layout="wide")
 @st.cache_resource
 def load_models():
     embed_model = SentenceTransformer('all-MiniLM-L6-v2')
-    qa_model = pipeline("text2text-generation", model="google/flan-t5-large")
+    qa_model = pipeline("text2text-generation", model="google/flan-t5-base")
     return embed_model, qa_model
 
 # === Load Data + FAISS Index ===
