@@ -17,8 +17,8 @@ DinoGPT is a retrieval-augmented generation (RAG) tool that combines semantic ve
 
 Ask DinoGPT anything about dinosaurs -- fossil discovery locations, diets, genetic adaptations, sizes, or time periods -- and it will identify the most similar dinosaur descriptions to provide a tailored response.
 
-Example: \n
-Question: Where did Triceratops live? \n
+Example: <br>
+Question: Where did Triceratops live? <br>
 Answer: Western North America
 
 DinoGPT further provides transparency into the retrieved dinosaur descriptions for the user to gain additional insight into the context surrounding the LLM's answer. As someone who has been fascinated by these remarkable creatures--especially Triceratops--that once roamed the Earth, this personal project reflects my ability to combine curiosity with cutting-edge AI tools. This app reflects my skills in leveraging RAG, building a user friendly interface in Streamlit, and exploring explainable natural language processing techniques.
