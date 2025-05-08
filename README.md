@@ -14,7 +14,7 @@ DinoGPT is a retrieval-augmented generation (RAG) tool that combines semantic ve
 7. LLM Answer Generation: The FLAN-T5 (Google) model is prompted with the user's query and the retrieved dinosaur descriptions to provide a tailored, context-specific answer.
 
 **Demo**
-https://dinogpt.streamlit.app/ 
+(https://dinogpt.streamlit.app/) 
 
 Ask DinoGPT anything about dinosaurs -- fossil discovery locations, diets, genetic adaptations, sizes, or time periods -- and it will identify the most similar dinosaur descriptions to provide a tailored response.
 
