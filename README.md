@@ -5,7 +5,7 @@ DinoGPT is a retrieval-augmented generation (RAG) tool that combines semantic ve
 
 **How it works**
 
-1. Dataset: Kaggle Dinosaur Dataset (https://www.kaggle.com/datasets/smruthiiii/dinosaur-dataset). The dataset contains features for1042 unique dinosaurs.
+1. Dataset: Kaggle Dinosaur Dataset (https://www.kaggle.com/datasets/smruthiiii/dinosaur-dataset). The dataset contains features for 1042 unique dinosaurs.
 2. Textual Descriptions: Additional textual descriptions for each dinosaur are scraped from Wikipedia using its public API.
 3. Embeddings: Each dinosaur description is transformed into a 384-dimensional semantic vector using the all-MiniLM-L6-v2 model from SentenceTransformers.
 4. Vector Storage: Embeddings are stored in a FAISS index using the 'IndexFlatIP' method for efficient similarity search.
